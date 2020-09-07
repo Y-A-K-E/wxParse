@@ -1,5 +1,6 @@
 import HtmlToJson from './utils/html2json';
 import showdown from './utils/showdown.js';
+import marked from './utils/marked.js';
 import { getSystemInfo, bindInstance } from './utils/util';
 
 Component({
