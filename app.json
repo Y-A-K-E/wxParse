@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/richTextPage/richTextPage",
     "pages/highLightPage/highLightPage",
-    "components/wxParse/webviewPage/webviewPage"
+    "components/wxParse/webviewPage/webviewPage",
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "light",

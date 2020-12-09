@@ -1,0 +1,42 @@
+<!-- html文本解析 -->
+<view class="mb20">
+  <view class="font18 bold mb20">blogid : {{blogid}}</view>
+
+    <navigator url="../test/test?id=73" class='{{prevshow?"pshow":"phide"}}'> 
+          <span class="prev-text nav-mobile">navigator 跳转上一篇</span>  
+    </navigator>
+ 
+    <!-- 加了redirect -->
+    <navigator open-type="redirect" url="../test/test?id=73" class='{{prevshow?"pshow":"phide"}}'> 
+          <span class="prev-text nav-mobile">redirect 跳转上一篇</span>  
+    </navigator>  
+
+
+  <navigator  url="../test/test?id=45" class='{{nextshow?"pshow":"phide"}}'> 
+          <span class="prev-text nav-mobile">navigator跳转下一篇</span>
+  </navigator>
+
+  <!-- 加了redirect -->
+  <navigator open-type="redirect" url="../test/test?id=45" class='{{nextshow?"pshow":"phide"}}'> 
+          <span class="prev-text nav-mobile">redirect跳转下一篇</span>
+  </navigator>
+
+  <view class="font18 bold mb20">
+    <view class="jump-div">
+      <span bindtap="bindViewjump" class="nav-mobile">
+          view 事件跳转(navigateTo)
+      </span>
+    </view>
+    <view class="jump-div">
+      <span bindtap="bindViewjump2" class="nav-mobile">
+          view 事件跳转(redirectTo)
+      </span>
+    </view>
+
+
+  </view>
+
+
+  <view class="hr">-------以下是HTML解析区------</view>
+  <wxParse nodes="{{htmlText}}" language="html"></wxParse>
+</view>

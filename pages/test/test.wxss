@@ -1,0 +1,31 @@
+/* pages/test/test.wxss */
+.hr{
+  margin: 10px 0;
+  text-align: center;
+  color: brown;
+}
+.pshow{
+  display: block;
+  margin: 30px 0px;
+}
+.phide{
+  display: none;
+  
+}
+.nav-mobile{
+  border: 1px solid white;
+  background-color: sandybrown;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+navigator{
+  text-align: center;
+  margin: 30 auto;
+  display: inline-block;
+}
+
+.jump-div {
+  text-align: center;
+  margin: 30px auto;
+}

@@ -3,5 +3,6 @@
     <view class="font20 bold mb20">小程序组件</view>
     <navigator class="normal-btn mb15" url="/pages/richTextPage/richTextPage">1. 富文本组件</navigator>
     <navigator class="normal-btn mb15" url="/pages/highLightPage/highLightPage">2. 代码高亮组件</navigator>
+    <navigator class="normal-btn mb15" url="/pages/test/test">3. 释放bug</navigator>    
   </view>
 </view>
